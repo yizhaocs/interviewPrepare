@@ -47,3 +47,12 @@ graph = {
 # Execute DFS from node 'A' (iterative version)
 dfs_result = dfs_iterative(graph, 'A')
 print("DFS 结果 DFS Result:", dfs_result)
+'''
+访问节点 Visiting node: A
+访问节点 Visiting node: B
+访问节点 Visiting node: D
+访问节点 Visiting node: E
+访问节点 Visiting node: F
+访问节点 Visiting node: C
+DFS 结果 DFS Result: {'B', 'A', 'D', 'F', 'E', 'C'}
+'''
